@@ -1,0 +1,30 @@
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand"><%= image_tag("logo.png", width: '90')  %></h3>
+          <nav>
+            <ul class="nav masthead-nav">
+              <li class="active"><%= link_to "首页", root_path %></li>
+              <li><%= link_to "课程", "#" %></li>
+              <li><%= link_to "联系我们", "#" %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        	<section id='body'>
+					  <%=raw @page.content_for(:body) %>
+					</section>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Copyright © 2015 Aki-Aikido</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
