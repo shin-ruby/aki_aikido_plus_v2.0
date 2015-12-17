@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151217015817) do
+ActiveRecord::Schema.define(version: 20151217063601) do
 
   create_table "refinery_authentication_devise_roles", force: :cascade do |t|
     t.string "title"
@@ -136,6 +136,7 @@ ActiveRecord::Schema.define(version: 20151217015817) do
     t.string   "layout_template"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "background_image_id"
   end
 
   add_index "refinery_pages", ["depth"], name: "index_refinery_pages_on_depth"
