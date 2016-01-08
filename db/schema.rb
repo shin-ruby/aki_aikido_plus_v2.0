@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151217063601) do
+ActiveRecord::Schema.define(version: 20160108080545) do
 
   create_table "refinery_authentication_devise_roles", force: :cascade do |t|
     t.string "title"
@@ -79,6 +79,34 @@ ActiveRecord::Schema.define(version: 20151217063601) do
     t.string   "image_title"
     t.string   "image_alt"
   end
+
+  create_table "refinery_news_item_translations", force: :cascade do |t|
+    t.integer  "refinery_news_item_id", null: false
+    t.string   "locale",                null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.string   "title"
+    t.text     "body"
+    t.string   "source"
+    t.string   "slug"
+  end
+
+  add_index "refinery_news_item_translations", ["locale"], name: "index_refinery_news_item_translations_on_locale"
+  add_index "refinery_news_item_translations", ["refinery_news_item_id"], name: "index_refinery_news_item_translations_fk"
+
+  create_table "refinery_news_items", force: :cascade do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "publish_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "image_id"
+    t.datetime "expiration_date"
+    t.string   "source"
+    t.string   "slug"
+  end
+
+  add_index "refinery_news_items", ["id"], name: "index_refinery_news_items_on_id"
 
   create_table "refinery_page_part_translations", force: :cascade do |t|
     t.integer  "refinery_page_part_id", null: false
@@ -165,6 +193,21 @@ ActiveRecord::Schema.define(version: 20151217063601) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "refinery_settings", force: :cascade do |t|
+    t.string   "name"
+    t.text     "value"
+    t.boolean  "destroyable",     default: true
+    t.string   "scoping"
+    t.boolean  "restricted",      default: false
+    t.string   "form_value_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "slug"
+    t.string   "title"
+  end
+
+  add_index "refinery_settings", ["name"], name: "index_refinery_settings_on_name"
 
   create_table "seo_meta", force: :cascade do |t|
     t.integer  "seo_meta_id"

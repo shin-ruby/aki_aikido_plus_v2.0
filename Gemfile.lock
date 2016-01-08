@@ -1,4 +1,16 @@
 GIT
+  remote: git://github.com/refinery/refinerycms-news.git
+  revision: 58c2fbc3c2ae817252f5391f065ee97a71ddd037
+  branch: master
+  specs:
+    refinerycms-news (3.0.0)
+      acts_as_indexed (~> 0.8.0)
+      friendly_id (~> 5.1.0)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+
+GIT
   remote: https://github.com/refinery/refinerycms
   revision: 68b386cfff76c9e23277467fe32273cfd335afe3
   branch: master
@@ -219,6 +231,9 @@ GEM
     refinerycms-i18n (3.0.1)
       rails-i18n (~> 4.0.1)
       routing-filter (>= 0.4.0)
+    refinerycms-settings (3.0.0)
+      friendly_id (~> 5.0, >= 5.0.1)
+      refinerycms-core (~> 3.0, >= 3.0.0)
     refinerycms-wymeditor (1.0.6)
       refinerycms-core (~> 3.0, >= 3.0.0)
     responders (2.1.0)
@@ -293,6 +308,7 @@ DEPENDENCIES
   refinerycms!
   refinerycms-acts-as-indexed (~> 2.0, >= 2.0.0)
   refinerycms-authentication-devise (~> 1.0)
+  refinerycms-news!
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
