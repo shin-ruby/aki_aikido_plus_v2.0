@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 gem 'rails', '4.2.4'
 
@@ -27,7 +27,8 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
-  gem 'capistrano-rbenv'
+  gem 'capistrano-rvm'
+  gem 'capistrano-passenger'
 end
 
 group :development, :test do

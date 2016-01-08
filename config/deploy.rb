@@ -4,7 +4,7 @@ lock '3.4.0'
 set :application, 'aaki_aikido_plus_v2.0'
 set :deploy_user, 'Shin'
 
-set :repo_url, 'git@github.com:shin-ruby/shin-ruby/aki_aikido_plus_v2.0'
+set :repo_url, 'git@github.com:shin-ruby/aki_aikido_plus_v2.0'
 
 set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, '2.1.6'
@@ -44,7 +44,7 @@ set :rbenv_roles, :all # default value
 set :keep_releases, 5
 
 # files we want symlinking to specific entries in shared
-set :linked_files, %w{config/database.yml config/application.yml config/secrets.yml}
+set :linked_files, %w{config/database.yml config/secrets.yml}
 
 # dirs we want symlinking to shared
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
