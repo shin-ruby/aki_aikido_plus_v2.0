@@ -7,7 +7,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'bootswatch-rails', '~> 3.3.5'
-gem 'font-awesome-rails', '~> 4.4.0.0'
+gem 'font-awesome-rails', '~> 4.5.0.0'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
