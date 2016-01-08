@@ -18,8 +18,9 @@
           <nav>
             <ul class="nav masthead-nav">
               <li class="active"><%= link_to "首页", root_path %></li>
-              <li><%= link_to "课程", "#" %></li>
-              <li><%= link_to "联系我们", "#" %></li>
+              <li><%= link_to "课程", page_path(5) %></li>
+              <li><%= link_to "新闻资讯", news_items_path %></li>
+              <li><%= link_to "联系我们", page_path(4) %></li>
             </ul>
           </nav>
         </div>
@@ -30,7 +31,7 @@
 					  <%=raw @page.content_for(:body) %>
 					</section>
 					<p class="lead">
-	          <%= link_to "了解我们", "#", class: "btn" %>
+	          <%= link_to "了解我们", page_path(3), class: "btn" %>
 	        </p>
       </div>
 
