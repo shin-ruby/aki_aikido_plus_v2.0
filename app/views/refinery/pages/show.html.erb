@@ -7,10 +7,11 @@
 			<h5 class="teacher"><small>指導者</small></h5>
 			<h5 class="zbh">朱博海（三段）</h5>
 			
-			<p><%= link_to "首页", "#" %></p>
-			<p><%= link_to "课程", "#" %></p>
-			<p><%= link_to "关于我们", "#" %></p>
-			<p><%= link_to "联系我们", "#" %></p>
+			<!-- <p><%#= link_to "首页", "#" %></p>
+			<p><%#= link_to "课程", "#" %></p>
+			<p><%#= link_to "关于我们", "#" %></p>
+			<p><%#= link_to "联系我们", "#" %></p> -->
+			<%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
 			<p>邮箱： <a href="mailto:info@aki-aikido.com">info@aki-aikido.com</a></p>
 		  <%=raw @page.content_for(:side_body) %>
 		</section>

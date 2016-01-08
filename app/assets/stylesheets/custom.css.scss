@@ -195,6 +195,13 @@ body {
   .zbh {
     margin-bottom: 120px;
   }
+  #menu {
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 6px 0px;
+    } 
+  }
 }
 
 .about-right {
@@ -216,3 +223,5 @@ address {
     color: #D32F2F;
   }
 }
+
+
