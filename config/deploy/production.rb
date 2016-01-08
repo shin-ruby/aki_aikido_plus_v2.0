@@ -1,3 +1,7 @@
+role :app, %w{139.196.194.106}
+role :web, %w{139.196.194.106}
+role :db,  %w{139.196.194.106}
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -17,9 +21,8 @@ server '139.196.194.106', user: 'Shin', roles: %w{app db web}, my_property: :my_
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-role :app, %w{139.196.194.106}
-role :web, %w{139.196.194.106}
-role :db,  %w{139.196.194.106}
+
+set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/aki-aikido"
 
 set :unicorn_worker_count, 5
 
