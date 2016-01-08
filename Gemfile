@@ -47,10 +47,6 @@ group :test do
   gem 'factory_girl_rails', '~> 4.5.0'
 end
 
-group :production do
-  gem 'rails_12factor', '0.0.2'
-end
-
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
 gem 'quiet_assets', group: :development
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
