@@ -11,9 +11,25 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
+* Database production dump
 
-* Database initialization
+```bash
+pg_dump -U aki_aikido_prod -d aki_aikido_prod -f ~/aki_aikido_prod.sql
+```
+
+* Database initialization in development
+
+```bash
+scp Shin@139.196.194.106:aki_aikido_prod.sql .
+# replace aki_aikido_prod to aki_aikido_dev in that file
+psql
+drop database aki_aikido_dev;
+drop user aki_aikido_dev;
+create user aki_aikido_dev with CREATEDB password 'only_need_in_windows';
+create database aki_aikido_dev;
+\q
+psql -U aki_aikido_dev aki_aikido_dev < aki_aikido_prod.sql
+```
 
 * How to run the test suite
 
