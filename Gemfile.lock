@@ -93,7 +93,7 @@ GEM
     acts_as_indexed (0.8.3)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.2.3)
+    autoprefixer-rails (6.3.1)
       execjs
       json
     awesome_nested_set (3.0.2)
@@ -233,7 +233,7 @@ GEM
       activesupport (= 4.2.5)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.5.0)
+    rake (10.4.2)
     rdoc (4.2.1)
       json (~> 1.4)
     refinerycms-acts-as-indexed (2.0.1)
