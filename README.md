@@ -31,6 +31,10 @@ create database aki_aikido_dev;
 psql -U aki_aikido_dev aki_aikido_dev < aki_aikido_prod.sql
 ```
 
+```
+scp -r Shin@139.196.194.106:/home/Shin/apps/aki-aikido/shared/public/system/ ./public/
+```
+
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
