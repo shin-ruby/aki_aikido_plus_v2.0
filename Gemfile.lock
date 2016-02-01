@@ -12,15 +12,15 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: a73f1dab678e0f1707b13b296c0922ca3b954fd2
+  revision: 92d1e98d716c1016cf205351a8c3ee9f0fbd503a
   branch: master
   specs:
-    refinerycms (3.0.0)
-      refinerycms-core (= 3.0.0)
-      refinerycms-images (= 3.0.0)
-      refinerycms-pages (= 3.0.0)
-      refinerycms-resources (= 3.0.0)
-    refinerycms-core (3.0.0)
+    refinerycms (3.0.1)
+      refinerycms-core (= 3.0.1)
+      refinerycms-images (= 3.0.1)
+      refinerycms-pages (= 3.0.1)
+      refinerycms-resources (= 3.0.1)
+    refinerycms-core (3.0.1)
       actionpack (>= 4.2.3, < 5.0)
       activerecord (>= 4.2.3, < 5.0)
       awesome_nested_set (~> 3.0.0)
@@ -34,23 +34,23 @@ GIT
       truncate_html (~> 0.9)
       will_paginate (~> 3.0.2)
       zilch-authorisation
-    refinerycms-images (3.0.0)
+    refinerycms-images (3.0.1)
       dragonfly (~> 1.0.0)
       globalize (>= 4.0.0, < 5.2)
-      refinerycms-core (= 3.0.0)
-    refinerycms-pages (3.0.0)
+      refinerycms-core (= 3.0.1)
+    refinerycms-pages (3.0.1)
       awesome_nested_set (~> 3.0.0)
       babosa (!= 0.3.6)
       friendly_id (~> 5.1.0)
       globalize (>= 4.0.0, < 5.2)
-      refinerycms-core (= 3.0.0)
+      refinerycms-core (= 3.0.1)
       seo_meta (~> 2.0.0.rc.1)
       speakingurl-rails (~> 8.0.0)
-    refinerycms-resources (3.0.0)
+    refinerycms-resources (3.0.1)
       acts_as_indexed (~> 0.8.0)
       dragonfly (~> 1.0.0)
       globalize (>= 4.0.0, < 5.2)
-      refinerycms-core (= 3.0.0)
+      refinerycms-core (= 3.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -101,8 +101,6 @@ GEM
     babosa (1.0.2)
     bcrypt (3.1.10)
     bcrypt (3.1.10-x86-mingw32)
-    binding_of_caller (0.7.2)
-      debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -137,7 +135,7 @@ GEM
     debug_inspector (0.0.2)
     decorators (2.0.1)
       railties (>= 4.0.0, < 5.0.0)
-    devise (3.5.5)
+    devise (3.5.6)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -277,7 +275,7 @@ GEM
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.0.0)
+    sprockets-rails (3.0.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
@@ -292,18 +290,17 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2015.7)
+    tzinfo-data (1.2016.1)
       tzinfo (>= 1.0.0)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    warden (1.2.4)
+    warden (1.2.6)
       rack (>= 1.0)
-    web-console (2.2.1)
-      activemodel (>= 4.0)
-      binding_of_caller (>= 0.7.2)
-      railties (>= 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
+    web-console (3.1.1)
+      activemodel (>= 4.2)
+      debug_inspector
+      railties (>= 4.2)
     will_paginate (3.0.7)
     zilch-authorisation (0.0.1)
 
@@ -342,7 +339,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier (>= 1.3.0)
-  web-console (~> 2.2)
+  web-console
 
 BUNDLED WITH
    1.11.2

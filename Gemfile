@@ -36,7 +36,7 @@ end
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.2', platform: :ruby
+  gem 'web-console'
   gem 'spring', platform: :ruby
 end
 
