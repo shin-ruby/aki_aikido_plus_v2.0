@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 92d1e98d716c1016cf205351a8c3ee9f0fbd503a
+  revision: e731bca7360a4395b192aa19df757466d823b9cb
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -107,7 +107,7 @@ GEM
     bootswatch-rails (3.3.5)
       railties (>= 3.1)
     builder (3.2.2)
-    byebug (8.2.1)
+    byebug (8.2.2)
     capistrano (3.4.0)
       i18n
       rake (>= 10.0.0)
@@ -150,7 +150,7 @@ GEM
     execjs (2.6.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.5.0)
+    factory_girl_rails (4.6.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
     font-awesome-rails (4.5.0.0)
@@ -271,7 +271,7 @@ GEM
     slop (3.6.0)
     speakingurl-rails (8.0.2)
       railties (>= 3.1)
-    spring (1.6.2)
+    spring (1.6.3)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -318,7 +318,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   coffee-rails (~> 4.1.0)
-  factory_girl_rails (~> 4.5.0)
+  factory_girl_rails (~> 4.5)
   font-awesome-rails (~> 4.5.0.0)
   jbuilder (~> 2.0)
   jquery-rails

@@ -44,7 +44,7 @@ group :test do
   gem 'pry', platform: :ruby
   gem 'minitest'
   gem 'mini_backtrace', '~> 0.1.3'
-  gem 'factory_girl_rails', '~> 4.5.0'
+  gem 'factory_girl_rails', '~> 4.5'
 end
 
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
