@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/refinery/refinerycms-news.git
-  revision: 58c2fbc3c2ae817252f5391f065ee97a71ddd037
+  revision: 2d5222d8d177c6767a60f4c09769a97f80c1a312
   branch: master
   specs:
     refinerycms-news (3.0.0)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 128268047492ae73d10c4d5a013454893cc3bb67
+  revision: ed7bbea503fc95e5aac5dcc94ce444a3d7c9718d
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -26,6 +26,7 @@ GIT
       awesome_nested_set (~> 3.0.0)
       coffee-rails (~> 4.0, >= 4.0.0)
       decorators (~> 2.0.0)
+      font-awesome-sass (>= 4.3.0, < 5.0)
       jquery-rails (>= 2.3.0)
       jquery-ui-rails (~> 5.0.0)
       railties (>= 4.2.3, < 5.0)
@@ -93,7 +94,7 @@ GEM
     acts_as_indexed (0.8.3)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.1)
+    autoprefixer-rails (6.3.3)
       execjs
       json
     awesome_nested_set (3.0.3)
@@ -155,6 +156,8 @@ GEM
       railties (>= 3.0.0)
     font-awesome-rails (4.5.0.1)
       railties (>= 3.2, < 5.1)
+    font-awesome-sass (4.5.0)
+      sass (>= 3.2)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.3.6)
