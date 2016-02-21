@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/refinery/refinerycms-news.git
-  revision: 2d5222d8d177c6767a60f4c09769a97f80c1a312
+  revision: 781c7fde3876cc5940d95cd1ca9d815446bcd0da
   branch: master
   specs:
     refinerycms-news (3.0.0)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 4241f0161c19b75431a3b5200c6be313abae7ef2
+  revision: 8ec74957f0a88244e139ec8eb4d4d669cb94ea77
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -124,7 +124,7 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    coderay (1.1.0)
+    coderay (1.1.1)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
