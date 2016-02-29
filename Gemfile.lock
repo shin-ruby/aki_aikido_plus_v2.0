@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 8ec74957f0a88244e139ec8eb4d4d669cb94ea77
+  revision: 52f2ea3205c4aa6767e51e11d54591d38632545d
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -131,7 +131,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    concurrent-ruby (1.0.0)
+    concurrent-ruby (1.0.1)
     debug_inspector (0.0.2)
     decorators (2.0.1)
       railties (>= 4.0.0, < 5.0.0)
