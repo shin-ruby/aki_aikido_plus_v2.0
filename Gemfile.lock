@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: 9b2597c6e9a69db3e37e00bc6fc52ee2102cf96a
+  revision: b37cf424fcda13b5f9e257b59a723c73361d7d38
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -42,7 +42,7 @@ GIT
     refinerycms-pages (3.0.1)
       awesome_nested_set (~> 3.0.0)
       babosa (!= 0.3.6)
-      friendly_id (~> 5.1.0)
+      friendly_id (>= 5.1.0, < 5.3)
       globalize (>= 4.0.0, < 5.2)
       refinerycms-core (= 3.0.1)
       seo_meta (~> 2.0.0.rc.1)
@@ -99,8 +99,8 @@ GEM
     awesome_nested_set (3.0.3)
       activerecord (>= 4.0.0, < 5)
     babosa (1.0.2)
-    bcrypt (3.1.10)
-    bcrypt (3.1.10-x86-mingw32)
+    bcrypt (3.1.11)
+    bcrypt (3.1.11-x86-mingw32)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
