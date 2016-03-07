@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: b37cf424fcda13b5f9e257b59a723c73361d7d38
+  revision: 0c1cf25cb54f7d3ddde794e114b15189e51a0c43
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -54,7 +54,7 @@ GIT
       refinerycms-core (= 3.0.1)
 
 GEM
-  remote: https://ruby.taobao.org/
+  remote: http://gems.ruby-china.org/
   specs:
     actionmailer (4.2.5.2)
       actionpack (= 4.2.5.2)
