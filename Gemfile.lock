@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: a4d06ae5afd4eca4829ca07f3c5b17ecf0797caf
+  revision: cc11ad6c984b3e24d108c82e0be8728e9013ff78
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -233,7 +233,7 @@ GEM
       activesupport (= 4.2.6)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.5.0)
+    rake (11.0.1)
     rdoc (4.2.2)
       json (~> 1.4)
     refinerycms-acts-as-indexed (2.0.1)
