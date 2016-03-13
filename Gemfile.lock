@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/refinery/refinerycms
-  revision: d91fd482656d5b4c523bbe80562b0e7d94c63ac7
+  revision: c28e7afae816328280fb6f511094d8cbf100ebd0
   branch: master
   specs:
     refinerycms (3.0.1)
@@ -233,7 +233,7 @@ GEM
       activesupport (= 4.2.6)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (11.0.1)
+    rake (11.1.0)
     rdoc (4.2.2)
       json (~> 1.4)
     refinerycms-acts-as-indexed (2.0.1)
@@ -281,7 +281,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.8.1)
+    sshkit (1.9.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     thor (0.19.1)
