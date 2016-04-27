@@ -5,7 +5,7 @@ gem 'rails', '~> 4.2.6'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', require: false
 gem 'coffee-rails', '~> 4.1.0'
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootswatch-rails', '~> 3.3.5'
 gem 'font-awesome-rails', '~> 4.6'
 
@@ -47,7 +47,7 @@ group :test do
   gem 'factory_girl_rails', '~> 4.5'
 end
 
-gem 'refinerycms', '~> 3.0.2'
+gem 'refinerycms', '~> 3.0.3'
 gem 'quiet_assets', group: :development
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
