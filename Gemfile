@@ -12,7 +12,7 @@ gem 'font-awesome-rails', '~> 4.6'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
-gem 'turbolinks'
+gem 'turbolinks', '~> 2.5.3'
 gem 'jbuilder', '~> 2.0'
 
 # bundle exec rake doc:rails generates the API under doc/api.
