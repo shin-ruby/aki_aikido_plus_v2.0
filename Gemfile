@@ -4,7 +4,7 @@ gem 'rails', '~> 4.2.7'
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', require: false
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2.1'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootswatch-rails', '~> 3.3.5'
 gem 'font-awesome-rails', '~> 4.6'
