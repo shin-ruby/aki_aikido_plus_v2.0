@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 4.2.7'
+gem 'rails', '~> 4.2.7.1'
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', require: false
